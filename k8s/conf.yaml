@@ -5,7 +5,7 @@ metadata:
 data:
   ENVIRONMENT: "DEV"
   HOST: "localhost"
-  PORT: "8000"
-  REDIS_HOST: "localhost"
+  PORT: "80"
+  REDIS_HOST: "backend-service"
   REDIS_PORT: "6379"
   REDIS_DB: "0"

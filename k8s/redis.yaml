@@ -25,7 +25,7 @@ metadata:
   name: backend-service	
 spec:
   selector:
-    tier: backend
+    type: redis
   ports:
     - protocol: TCP
       port: 6379
